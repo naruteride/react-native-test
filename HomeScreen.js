@@ -5,12 +5,12 @@ export default HomeScreen = ({ navigation }) => {
         <Button
             title="Go to Jane's profile"
             onPress={() =>
-                navigation.navigate('Guns', { name: 'Jane' })
+                navigation.navigate('Guns')
             }
         />
     );
 };
 
-export const ProfileScreen = ({ navigation, route }) => {
-    return <Text>This is {route.params.name}'s profile</Text>;
+export const ProfileScreen = ({ navigation }) => {
+    return <Text>This is asdf's profile</Text>;
 };
