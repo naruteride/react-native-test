@@ -1,6 +1,6 @@
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import HouseImg from './assets/images/house-solid.svg';
-import { Image } from 'react-native'
+// import { SvgUri } from 'react-native-svg';
 
 import News, { Guns, Manual } from './News';
 
@@ -20,9 +20,7 @@ export default function Navigation() {
                 options={{
                     tabBarLabel: 'News',
                     tabBarIcon: ({ color, size }) => {
-                        return <Image source={{
-                            uri: './assets/images/house-solid.svg'
-                        }} />;
+                        return <HouseImg />
                     },
                 }}
             />

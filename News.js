@@ -1,5 +1,4 @@
-import { StyleSheet, Text, Button, View } from "react-native"
-import Navigation from "./components/Navigation";
+import { StyleSheet, Text, Button, View } from "react-native";
 
 export default News = ({ navigation }) => {
     return <>
@@ -10,7 +9,6 @@ export default News = ({ navigation }) => {
                     navigation.navigate('Guns')
                 }
             />
-            <Navigation />
         </View>
     </>;
 };
